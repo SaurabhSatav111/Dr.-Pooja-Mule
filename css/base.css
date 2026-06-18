@@ -1,0 +1,181 @@
+/* CSS Reset */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, span, a, li, button, input, select, textarea, label, div, [style*="font-family"] {
+  font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+}
+
+/* Exception to preserve Tabler Icons webfont */
+.ti, [class^="ti-"], [class*=" ti-"] {
+  font-family: 'tabler-icons' !important;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3 {
+  color: var(--dark);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+section {
+  padding: 80px 0;
+}
+
+/* Utility Classes */
+.btn-primary {
+  display: inline-block;
+  background-color: var(--accent);
+  color: var(--white);
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  border-radius: var(--radius);
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary);
+  box-shadow: var(--shadow);
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  display: inline-block;
+  background-color: transparent;
+  color: var(--white);
+  border: 2px solid var(--white);
+  padding: 10px 26px; /* slightly smaller padding to compensate for 2px border */
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: var(--radius);
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.btn-outline:hover {
+  background-color: var(--white);
+  color: var(--dark);
+  box-shadow: var(--shadow);
+  transform: translateY(-2px);
+}
+
+/* Scroll Reveal Animations */
+section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* WhatsApp Floating Button */
+.whatsapp-floating-btn {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #25D366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(37, 211, 102, 0.3);
+  z-index: 1000;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
+}
+
+.whatsapp-floating-btn:hover {
+  transform: scale(1.1) translateY(-3px);
+  box-shadow: 0 8px 24px rgba(37, 211, 102, 0.4);
+}
+
+/* WhatsApp Tooltip */
+.whatsapp-floating-btn .wa-tooltip {
+  position: absolute;
+  right: 70px;
+  background-color: var(--dark);
+  color: var(--white);
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+  box-shadow: var(--shadow);
+}
+
+.whatsapp-floating-btn:hover .wa-tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Scroll-to-Top Button */
+.scroll-top-btn {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow);
+  z-index: 1000;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scroll-top-btn.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.scroll-top-btn:hover {
+  transform: scale(1.1) translateY(-3px);
+  background-color: var(--accent);
+  box-shadow: 0 8px 24px rgba(139, 34, 82, 0.25);
+}
+
+
+

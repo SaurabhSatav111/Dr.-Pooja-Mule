@@ -1,0 +1,469 @@
+/* Hero Section Styles */
+#hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #fdf6f0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Background Decorative Circles */
+.hero-bg-circles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.bg-circle-1 {
+  position: absolute;
+  width: 380px;
+  height: 380px;
+  border: 1px dashed rgba(232, 99, 122, 0.12);
+  border-radius: 50%;
+  top: -100px;
+  left: -100px;
+}
+
+.bg-circle-2 {
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  border: 1px solid rgba(232, 99, 122, 0.04);
+  border-radius: 50%;
+  bottom: 10%;
+  left: 10%;
+}
+
+.bg-circle-3 {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background: radial-gradient(circle, rgba(232, 99, 122, 0.03) 0%, transparent 70%);
+  border-radius: 50%;
+  top: 15%;
+  right: 45%;
+}
+
+/* Split Grid Layout */
+.hero-split-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  flex: 1;
+  width: 100%;
+  align-items: stretch;
+}
+
+/* Left Half Content */
+.hero-left-content {
+  padding-left: calc((100vw - 1200px) / 2 + 24px);
+  padding-right: 60px;
+  padding-top: 140px;
+  /* Space for fixed header */
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-new-eyebrow {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #E8637A;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.hero-new-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.15;
+  color: #5a1a35;
+  margin-bottom: 16px;
+}
+
+.hero-new-title .italic-rose {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  color: #E8637A;
+}
+
+.hero-new-location {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.map-pin-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.hero-new-location span {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #7c606c;
+}
+
+.hero-new-subheading {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #7c606c;
+  /* Muted rose-gray */
+  margin-bottom: 36px;
+  max-width: 520px;
+}
+
+.hero-new-btns {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 48px;
+  flex-wrap: wrap;
+}
+
+.btn-pill-filled {
+  display: inline-block;
+  background-color: #E8637A;
+  color: var(--white);
+  padding: 14px 32px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 14px rgba(232, 99, 122, 0.2);
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-pill-filled:hover {
+  background-color: var(--primary);
+  box-shadow: 0 6px 20px rgba(139, 34, 82, 0.3);
+  transform: translateY(-2px);
+}
+
+.btn-pill-outlined {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: var(--white);
+  color: #E8637A;
+  border: 2px solid #E8637A;
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-pill-outlined:hover {
+  background-color: #E8637A;
+  color: var(--white);
+  box-shadow: 0 6px 20px rgba(232, 99, 122, 0.2);
+  transform: translateY(-2px);
+}
+
+.phone-icon {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: currentColor;
+}
+
+/* Inline Stats Group */
+.hero-inline-stats {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.hero-inline-stat-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.inline-stat-num {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #5a1a35;
+  line-height: 1.2;
+}
+
+.inline-stat-lbl {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #7c606c;
+  margin-top: 4px;
+}
+
+.inline-stat-divider {
+  width: 1px;
+  height: 36px;
+  background-color: rgba(90, 26, 53, 0.12);
+}
+
+/* Right Half Photo Section */
+.hero-right-photo-section {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  background: linear-gradient(135deg, #fce8ef 0%, #f5b8c8 100%);
+  overflow: hidden;
+  z-index: 1;
+}
+
+.hero-doctor-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.photo-left-fade-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100%;
+  background: linear-gradient(to right, #fdf6f0 0%, transparent 100%);
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* Floating Availability Card */
+/*.floating-availability-card {
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(232, 99, 122, 0.15);
+  padding: 10px 18px;
+  border-radius: 30px;
+  box-shadow: 0 8px 24px rgba(90, 26, 53, 0.06);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 3;
+}
+
+.green-availability-dot {
+  color: #10B981;
+  font-size: 0.8rem;
+}
+
+.availability-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #5a1a35;
+}
+
+/* Floating Doctor Badge */
+/*.floating-doctor-badge {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  background-color: #5a1a35;
+  color: var(--white);
+  padding: 12px 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(90, 26, 53, 0.2);
+  z-index: 3;
+}
+
+.badge-doc-name {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.badge-doc-creds {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 500;
+  opacity: 0.85;
+  letter-spacing: 0.5px;
+  margin-top: 2px;
+}
+
+
+/* Bottom Info Strip (Sits below the 100vh hero viewport) */
+.hero-info-strip {
+  background-color: var(--white);
+  border-top: 1px solid rgba(90, 26, 53, 0.05);
+  border-bottom: 1px solid rgba(90, 26, 53, 0.05);
+  padding: 24px 0;
+  position: relative;
+  z-index: 5;
+  box-shadow: 0 4px 20px rgba(90, 26, 53, 0.02);
+}
+
+.info-strip-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.info-strip-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.info-card-icon-container {
+  width: 44px;
+  height: 44px;
+  background-color: rgba(232, 99, 122, 0.08);
+  color: #E8637A;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.info-card-svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+}
+
+.info-card-texts {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-card-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #E8637A;
+  line-height: 1.2;
+}
+
+.info-card-value {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #5a1a35;
+  margin-top: 2px;
+}
+
+
+/* ==========================================================================
+   Responsive Breakpoints for Hero Section
+   ========================================================================== */
+@media (max-width: 992px) {
+  .hero-split-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-left-content {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 120px;
+    padding-bottom: 60px;
+  }
+
+  .bg-circle-3 {
+    display: none;
+    /* Hide circle intersecting with photo */
+  }
+
+  .hero-right-photo-section {
+    min-height: 450px;
+  }
+
+  .photo-left-fade-overlay {
+    width: 100%;
+    height: 25%;
+    background: linear-gradient(to bottom, #fdf6f0 0%, transparent 100%);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-new-title {
+    font-size: 38px;
+  }
+
+
+  .hero-inline-stats {
+    gap: 16px;
+  }
+
+  .inline-stat-num {
+    font-size: 1.6rem;
+  }
+
+  .inline-stat-divider {
+    height: 30px;
+  }
+
+  .floating-availability-card {
+    top: 16px;
+    right: 16px;
+    padding: 8px 14px;
+  }
+
+  .floating-doctor-badge {
+    bottom: 16px;
+    left: 16px;
+    right: auto;
+    padding: 10px 16px;
+  }
+
+  .info-strip-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-new-btns {
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .btn-pill-filled,
+  .btn-pill-outlined {
+    width: 100%;
+  }
+
+  .hero-right-photo-section {
+    min-height: 380px;
+  }
+}
