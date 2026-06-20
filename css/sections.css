@@ -2137,6 +2137,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   min-height: 560px;
+  padding-top: 140px; /* Space for the fixed header */
   overflow: hidden;
   position: relative;
   background-color: var(--bg);
@@ -2610,6 +2611,7 @@
 @media (max-width: 992px) {
   .service-split-hero {
     grid-template-columns: 1fr;
+    padding-top: 115px;
   }
 
   .service-hero-left {
@@ -2624,5 +2626,17 @@
   .service-hero-right .service-hero-badge {
     top: 16px;
     right: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-split-hero {
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-split-hero {
+    padding-top: 85px;
   }
 }
