@@ -9,14 +9,14 @@
   transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
               box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
               padding 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 24px 0;
+  padding: 12px 0;
 }
 
 /* Scrolled State */
 .header.scrolled {
   background-color: var(--white);
   box-shadow: var(--shadow);
-  padding: 16px 0;
+  padding: 8px 0;
 }
 
 .header-container {
@@ -38,7 +38,7 @@
 }
 
 .header-logo {
-  height: 160px;
+  height: 150px;
   width: auto;
   display: block;
   mix-blend-mode: multiply;
@@ -46,7 +46,7 @@
 }
 
 .header.scrolled .header-logo {
-  height: 136px;
+  height: 125px;
 }
 
 /* Nav Styles */
@@ -64,7 +64,7 @@
 
 .nav-link {
   font-family: 'Inter', sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 0.95rem;
   color: var(--text);
   text-decoration: none;
@@ -300,5 +300,42 @@
 
   .dropdown:hover .dropdown-arrow {
     transform: rotate(90deg);
+  }
+}
+
+/* Responsive Logo & Spacer Overrides */
+@media (max-width: 992px) {
+  .header-logo {
+    height: 120px;
+  }
+  .header.scrolled .header-logo {
+    height: 100px;
+  }
+  div[style*="height: 170px"] {
+    height: 140px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-logo {
+    height: 100px;
+  }
+  .header.scrolled .header-logo {
+    height: 80px;
+  }
+  div[style*="height: 170px"] {
+    height: 120px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-logo {
+    height: 80px;
+  }
+  .header.scrolled .header-logo {
+    height: 65px;
+  }
+  div[style*="height: 170px"] {
+    height: 100px !important;
   }
 }

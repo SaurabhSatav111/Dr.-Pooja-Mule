@@ -67,8 +67,8 @@ html, body {
 
   /* Hero Section */
   #hero {
-    padding-top: 120px;
-    padding-bottom: 180px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .hero-title {
