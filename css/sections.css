@@ -44,7 +44,7 @@
 }
 
 .initials {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 48px;
   font-weight: 700;
   color: var(--white);
@@ -59,7 +59,7 @@
   color: var(--primary);
   padding: 8px 20px;
   border-radius: 50px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 1px;
@@ -69,7 +69,7 @@
 
 /* About Column Right Details */
 .about-eyebrow {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -80,7 +80,7 @@
 }
 
 .about-title {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 2.5rem;
   color: var(--dark);
   margin-bottom: 24px;
@@ -112,7 +112,7 @@
   border-radius: 50px;
   font-size: 0.88rem;
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   background-color: transparent;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   cursor: default;
@@ -161,7 +161,7 @@
 }
 
 .section-title {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 2.5rem;
   color: var(--dark);
   text-align: center;
@@ -222,7 +222,7 @@
 }
 
 .b-tag {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.72rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -236,7 +236,7 @@
 }
 
 .b-title {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.4rem;
   font-weight: 700;
   margin-bottom: 8px;
@@ -260,7 +260,7 @@
 }
 
 .b-desc {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.88rem;
   line-height: 1.5;
   margin-bottom: 16px;
@@ -278,7 +278,7 @@
 }
 
 .b-bullets li {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.85rem;
   font-weight: 500;
   display: flex;
@@ -298,7 +298,7 @@
   display: inline-block;
   padding: 8px 20px;
   border-radius: 50px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.8rem;
   font-weight: 600;
   text-decoration: none;
@@ -385,7 +385,7 @@
 }
 
 .why-us-title {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 2.5rem;
   color: var(--dark);
   margin-bottom: 32px;
@@ -402,7 +402,7 @@
 .why-us-checklist li {
   position: relative;
   padding-left: 32px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.05rem;
   color: var(--text);
   font-weight: 500;
@@ -441,7 +441,7 @@
 }
 
 .cta-label {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.9rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -451,7 +451,7 @@
 }
 
 .cta-phone {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 2.2rem;
   font-weight: 700;
   color: var(--primary);
@@ -475,7 +475,7 @@
   padding: 14px 28px;
   width: 100%;
   border-radius: var(--radius);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
@@ -497,7 +497,7 @@
 }
 
 .journey-section-title {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 2.5rem;
   color: var(--dark);
   text-align: center;
@@ -545,7 +545,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.8rem;
   font-weight: 700;
   color: var(--primary);
@@ -569,7 +569,7 @@
 }
 
 .step-title {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.3rem;
   font-weight: 700;
   color: var(--dark);
@@ -577,7 +577,7 @@
 }
 
 .step-desc {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.88rem;
   color: var(--muted);
   line-height: 1.5;
@@ -705,7 +705,7 @@
 }
 
 .hospital-name {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.4rem;
   color: var(--dark);
   margin-bottom: 12px;
@@ -713,7 +713,7 @@
 }
 
 .hospital-address {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   color: var(--text);
   font-size: 0.95rem;
   line-height: 1.55;
@@ -722,7 +722,7 @@
 }
 
 .hospital-phone {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.9rem;
   color: var(--muted);
   margin-bottom: 24px;
@@ -848,7 +848,7 @@
   border-radius: 50%;
   background-color: var(--accent);
   color: var(--white);
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.3rem;
   font-weight: 700;
   display: flex;
@@ -859,7 +859,7 @@
 }
 
 .patient-name {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.25rem;
   color: var(--dark);
   margin-bottom: 8px;
@@ -872,7 +872,7 @@
 }
 
 .review-text {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   color: var(--text);
   font-size: 0.95rem;
   line-height: 1.6;
@@ -904,7 +904,7 @@
 }
 
 .t-stat-num {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 2.2rem;
   font-weight: 700;
   color: var(--primary);
@@ -912,7 +912,7 @@
 }
 
 .t-stat-label {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -987,7 +987,7 @@
 }
 
 .faq-question {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.15rem;
   font-weight: 700;
   color: var(--dark);
@@ -1000,7 +1000,7 @@
 }
 
 .faq-icon {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.4rem;
   font-weight: 500;
   color: var(--accent);
@@ -1021,7 +1021,7 @@
 
 .faq-answer-content {
   padding: 0 24px 24px 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.95rem;
   color: var(--muted);
   line-height: 1.6;
@@ -1117,7 +1117,7 @@
   color: var(--white);
   padding: 6px 14px;
   border-radius: 50px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.8rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -1133,7 +1133,7 @@
 }
 
 .blog-date {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.85rem;
   color: var(--muted);
   margin-bottom: 12px;
@@ -1141,7 +1141,7 @@
 }
 
 .blog-card-title {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.3rem;
   color: var(--dark);
   margin-bottom: 12px;
@@ -1150,7 +1150,7 @@
 }
 
 .blog-excerpt {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.95rem;
   color: var(--text);
   line-height: 1.55;
@@ -1159,7 +1159,7 @@
 }
 
 .blog-link {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 600;
   font-size: 0.9rem;
   color: var(--accent);
@@ -1211,7 +1211,7 @@
 }
 
 .cta-half-title {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 2.2rem;
   color: var(--white);
   margin-bottom: 16px;
@@ -1219,7 +1219,7 @@
 }
 
 .cta-half-subtext {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.05rem;
   color: rgba(255, 255, 255, 0.75);
   margin-bottom: 32px;
@@ -1290,7 +1290,7 @@
 }
 
 .form-group label {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   color: var(--dark);
@@ -1303,7 +1303,7 @@
   padding: 14px 18px;
   border: 1px solid rgba(139, 34, 82, 0.15);
   border-radius: var(--radius);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.95rem;
   color: var(--text);
   background-color: var(--bg);
@@ -1373,7 +1373,7 @@
 }
 
 .award-title {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--dark);
@@ -1381,7 +1381,7 @@
 }
 
 .award-desc {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.9rem;
   color: var(--muted);
   line-height: 1.5;
@@ -1418,7 +1418,7 @@
 }
 
 .edu-year {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.3rem;
   font-weight: 700;
   color: var(--primary);
@@ -1427,7 +1427,7 @@
 }
 
 .edu-degree {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.15rem;
   font-weight: 700;
   color: var(--dark);
@@ -1435,7 +1435,7 @@
 }
 
 .edu-institution {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.95rem;
   color: var(--muted);
 }
@@ -1489,7 +1489,7 @@
 }
 
 .service-detail-title {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.8rem;
   color: var(--dark);
   margin-bottom: 16px;
@@ -1497,7 +1497,7 @@
 }
 
 .service-detail-desc {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1rem;
   color: var(--text);
   line-height: 1.6;
@@ -1517,7 +1517,7 @@
 }
 
 .meta-label {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.85rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -1528,7 +1528,7 @@
 }
 
 .meta-value {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.95rem;
   color: var(--muted);
   line-height: 1.5;
@@ -1549,7 +1549,7 @@
 }
 
 .subpage-cta-title {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 2.2rem;
   font-weight: 700;
   margin-bottom: 16px;
@@ -1557,7 +1557,7 @@
 }
 
 .subpage-cta-desc {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.1rem;
   color: var(--text);
   margin-bottom: 32px;
@@ -1668,7 +1668,7 @@
 .blog-back-link {
   color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.9rem;
   font-weight: 500;
   display: inline-flex;
@@ -1687,7 +1687,7 @@
   color: var(--white);
   padding: 6px 16px;
   border-radius: 50px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.8rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -1695,7 +1695,7 @@
 }
 
 .blog-detail-title {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 2.25rem;
   line-height: 1.3;
   color: var(--white);
@@ -1708,7 +1708,7 @@
   align-items: center;
   gap: 12px;
   color: rgba(255, 255, 255, 0.85);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.88rem;
   font-weight: 500;
 }
@@ -1775,7 +1775,7 @@
 }
 
 .blog-article-content h2 {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.8rem;
   color: var(--dark);
   margin-bottom: 16px;
@@ -1783,7 +1783,7 @@
 }
 
 .blog-article-content h3 {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.4rem;
   color: var(--dark);
   margin-top: 28px;
@@ -1792,7 +1792,7 @@
 }
 
 .blog-article-content p {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1rem;
   color: var(--text);
   line-height: 1.7;
@@ -1805,7 +1805,7 @@
 }
 
 .blog-article-content ul li {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.95rem;
   color: var(--text);
   line-height: 1.6;
@@ -1825,7 +1825,7 @@
 }
 
 .share-label {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 700;
   font-size: 0.9rem;
   color: var(--dark);
@@ -1898,7 +1898,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.8rem;
   font-weight: 700;
   margin-bottom: 16px;
@@ -1906,7 +1906,7 @@
 }
 
 .sidebar-doctor-name {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.25rem;
   color: var(--dark);
   margin-bottom: 4px;
@@ -1914,7 +1914,7 @@
 }
 
 .sidebar-doctor-degrees {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.75rem;
   font-weight: 600;
   color: var(--accent);
@@ -1924,7 +1924,7 @@
 }
 
 .sidebar-doctor-bio {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.88rem;
   color: var(--muted);
   line-height: 1.5;
@@ -1954,7 +1954,7 @@
 }
 
 .sidebar-cta-title {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.3rem;
   color: var(--white);
   margin-bottom: 8px;
@@ -1962,7 +1962,7 @@
 }
 
 .sidebar-cta-text {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.88rem;
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.85);
@@ -1973,7 +1973,7 @@
   display: inline-block;
   background-color: var(--white);
   color: #8B2252;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.85rem;
   font-weight: 600;
   padding: 10px 22px;
@@ -1989,7 +1989,7 @@
 
 /* Related articles */
 .sidebar-card-title {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.15rem;
   color: var(--dark);
   margin-bottom: 16px;
@@ -2036,7 +2036,7 @@
 }
 
 .related-post-title {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.88rem;
   font-weight: 600;
   color: var(--text);
@@ -2056,7 +2056,7 @@
 }
 
 .topic-tag-pill {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.78rem;
   font-weight: 600;
   color: #8B2252;
@@ -2092,7 +2092,7 @@
 
 .prev-link,
 .next-link {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   color: #8B2252;
@@ -2122,7 +2122,7 @@
 }
 
 .prev-next-count {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.85rem;
   color: var(--muted);
   font-weight: 500;
@@ -2152,7 +2152,7 @@
 .service-hero-left .service-back-link {
   color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.9rem;
   font-weight: 500;
   display: inline-flex;
@@ -2168,7 +2168,7 @@
 }
 
 .service-hero-left .service-hero-number {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.85rem;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.75);
@@ -2177,7 +2177,7 @@
 }
 
 .service-hero-left h1 {
-  font-family: 'Playfair Display', Georgia, serif !important;
+  font-family: 'Quicksand', sans-serif !important;
   font-size: 30px !important;
   font-weight: 700;
   color: var(--white);
@@ -2186,7 +2186,7 @@
 }
 
 .service-hero-left .service-hero-desc {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.95rem;
   line-height: 1.6;
   color: rgba(255, 255, 255, 0.85);
@@ -2206,7 +2206,7 @@
   color: #8B2252;
   border: 1px solid var(--white);
   padding: 12px 28px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.95rem;
   font-weight: 600;
   text-decoration: none;
@@ -2227,7 +2227,7 @@
   color: var(--white);
   border: 2px solid var(--white);
   padding: 10px 26px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.95rem;
   font-weight: 600;
   text-decoration: none;
@@ -2279,7 +2279,7 @@
 }
 
 .service-hero-right .service-photo-label {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   color: #8B2252;
@@ -2292,7 +2292,7 @@
   right: 24px;
   background-color: var(--white);
   color: #8B2252;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.8rem;
   font-weight: 700;
   padding: 8px 16px;
@@ -2338,7 +2338,7 @@
   list-style: none;
   gap: 8px;
   flex-wrap: wrap;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.88rem;
   color: var(--muted);
   font-weight: 500;
@@ -2402,7 +2402,7 @@
 }
 
 .service-card h2 {
-  font-family: 'Playfair Display', Georgia, serif !important;
+  font-family: 'Quicksand', sans-serif !important;
   font-size: 1.5rem !important;
   color: var(--dark);
   margin-bottom: 16px;
@@ -2411,7 +2411,7 @@
 }
 
 .service-card p.service-intro {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.98rem;
   color: var(--text);
   line-height: 1.6;
@@ -2439,7 +2439,7 @@
 }
 
 .info-box h4 {
-  font-family: 'Playfair Display', Georgia, serif !important;
+  font-family: 'Quicksand', sans-serif !important;
   font-size: 1.15rem !important;
   color: var(--dark);
   margin-bottom: 8px;
@@ -2447,7 +2447,7 @@
 }
 
 .info-box p {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.92rem;
   color: var(--muted);
   line-height: 1.5;
@@ -2477,7 +2477,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 700;
   font-size: 0.95rem;
   flex-shrink: 0;
@@ -2489,7 +2489,7 @@
 }
 
 .step-content h4 {
-  font-family: 'Playfair Display', Georgia, serif !important;
+  font-family: 'Quicksand', sans-serif !important;
   font-size: 1.1rem !important;
   color: var(--dark);
   margin-bottom: 4px;
@@ -2497,7 +2497,7 @@
 }
 
 .step-content p {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.92rem;
   color: var(--muted);
   line-height: 1.5;
@@ -2520,7 +2520,7 @@
 }
 
 .sidebar-box h4.sidebar-title {
-  font-family: 'Playfair Display', Georgia, serif !important;
+  font-family: 'Quicksand', sans-serif !important;
   font-size: 1.15rem !important;
   color: var(--dark);
   margin-bottom: 16px;
@@ -2541,7 +2541,7 @@
   padding: 10px 14px;
   border-radius: 8px;
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   color: var(--text);
   font-weight: 500;
   font-size: 0.9rem;
@@ -2569,7 +2569,7 @@
   display: flex;
   align-items: flex-start;
   gap: 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.9rem;
   color: var(--text);
   line-height: 1.4;

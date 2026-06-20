@@ -22,7 +22,7 @@
 }
 
 .footer-logo-text {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.8rem;
   font-weight: 700;
   color: var(--white);
@@ -51,7 +51,7 @@
 }
 
 .footer-tagline {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.95rem;
   color: var(--muted);
   line-height: 1.6;
@@ -74,7 +74,7 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.85rem;
   font-weight: 600;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -93,7 +93,7 @@
 }
 
 .footer-heading {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--white);
@@ -110,7 +110,7 @@
 }
 
 .footer-list-link {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.95rem;
   color: var(--muted);
   text-decoration: none;
@@ -124,7 +124,7 @@
 }
 
 .footer-contact-item {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.95rem;
   color: var(--muted);
   line-height: 1.6;
@@ -148,7 +148,7 @@
 }
 
 .footer-copyright {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.9rem;
   color: var(--muted);
   margin: 0;

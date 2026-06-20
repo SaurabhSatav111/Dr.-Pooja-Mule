@@ -80,7 +80,7 @@
 }
 
 .hero-new-eyebrow {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.85rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -91,7 +91,7 @@
 }
 
 .hero-new-title {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 48px;
   font-weight: 800;
   line-height: 1.15;
@@ -100,7 +100,7 @@
 }
 
 .hero-new-title .italic-rose {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-style: italic;
   font-weight: 400;
   color: #E8637A;
@@ -120,14 +120,14 @@
 }
 
 .hero-new-location span {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.95rem;
   font-weight: 500;
   color: #7c606c;
 }
 
 .hero-new-subheading {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.05rem;
   line-height: 1.65;
   color: #7c606c;
@@ -211,7 +211,7 @@
 }
 
 .inline-stat-num {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.8rem;
   font-weight: 700;
   color: #5a1a35;
@@ -219,7 +219,7 @@
 }
 
 .inline-stat-lbl {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.8rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -286,7 +286,7 @@
 }
 
 .availability-text {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.82rem;
   font-weight: 600;
   color: #5a1a35;
@@ -306,14 +306,14 @@
 }
 
 .badge-doc-name {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
   line-height: 1.2;
 }
 
 .badge-doc-creds {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.78rem;
   font-weight: 500;
   opacity: 0.85;
@@ -371,7 +371,7 @@
 }
 
 .info-card-label {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -381,7 +381,7 @@
 }
 
 .info-card-value {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.95rem;
   font-weight: 600;
   color: #5a1a35;
