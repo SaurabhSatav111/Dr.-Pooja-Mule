@@ -2137,7 +2137,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   min-height: 560px;
-  padding-top: 140px; /* Space for the fixed header */
+  padding-top: 140px;
+  /* Space for the fixed header */
   overflow: hidden;
   position: relative;
   background-color: var(--bg);
