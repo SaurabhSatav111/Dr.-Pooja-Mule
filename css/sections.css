@@ -2184,11 +2184,19 @@
 
 .service-hero-left h1 {
   font-family: 'Quicksand', sans-serif !important;
-  font-size: 30px !important;
-  font-weight: 700;
+  font-size: 42px !important;
+  font-weight: 800;
   color: var(--white);
   margin: 0;
-  line-height: 1.3;
+  line-height: 1.2;
+}
+
+.service-hero-left h1 .italic-rose,
+.service-hero-left h1 em {
+  font-family: 'Quicksand', sans-serif !important;
+  font-style: italic !important;
+  font-weight: 400;
+  color: #FFC2D1; /* Lighter pink/peach text */
 }
 
 .service-hero-left .service-hero-desc {
@@ -2210,8 +2218,8 @@
 .service-hero-left .btn-book-consult {
   background-color: var(--white);
   color: #8B2252;
-  border: 1px solid var(--white);
-  padding: 12px 28px;
+  border: 2px solid var(--white);
+  padding: 10px 26px;
   font-family: 'Quicksand', sans-serif;
   font-size: 0.95rem;
   font-weight: 600;
@@ -2224,13 +2232,14 @@
 .service-hero-left .btn-book-consult:hover {
   background-color: transparent;
   color: var(--white);
+  border-color: var(--white);
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .service-hero-left .btn-call-now {
-  background-color: transparent;
-  color: var(--white);
+  background-color: var(--white);
+  color: #8B2252;
   border: 2px solid var(--white);
   padding: 10px 26px;
   font-family: 'Quicksand', sans-serif;
@@ -2243,8 +2252,9 @@
 }
 
 .service-hero-left .btn-call-now:hover {
-  background-color: var(--white);
-  color: #8B2252;
+  background-color: transparent;
+  color: var(--white);
+  border-color: var(--white);
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
