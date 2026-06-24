@@ -121,8 +121,17 @@ body:has(.service-split-hero) div[style*="height: 170px"] {
   gap: 16px;
 }
 
+@media (min-width: 993px) {
+  .header-actions {
+    margin-right: 50px; /* Slide the button towards the left on desktop */
+  }
+}
+
 .appointment-btn {
   white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Hamburger toggle button */

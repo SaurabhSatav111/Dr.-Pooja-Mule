@@ -190,10 +190,7 @@ html, body {
     font-size: 1.8rem;
   }
 
-  .carousel-wrapper::before,
-  .carousel-wrapper::after {
-    width: 60px;
-  }
+
 
   /* Hospitals Grid to 1 Column */
   .hospitals-grid {
