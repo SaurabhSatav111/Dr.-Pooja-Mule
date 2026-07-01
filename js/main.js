@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Button 2: Instagram
   const instaBtn = document.createElement('a');
-  instaBtn.href = 'https://instagram.com'; // Change to actual Instagram URL if needed
+  instaBtn.href = 'https://www.instagram.com/yashodharahospital123/'; // Change to actual Instagram URL if needed
   instaBtn.target = '_blank';
   instaBtn.rel = 'noopener noreferrer';
   instaBtn.className = 'floating-social-btn instagram-btn';

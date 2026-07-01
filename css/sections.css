@@ -2435,9 +2435,9 @@
 
 .service-hero-right .service-hero-img {
   width: 100%;
-  max-width: 800px;
-  height: 520px;
-  max-height: calc(100vh - 160px);
+  max-width: 880px;
+  height: 560px;
+  max-height: calc(100vh - 140px);
   object-fit: cover;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
