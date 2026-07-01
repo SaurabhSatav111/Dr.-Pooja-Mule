@@ -1,7 +1,7 @@
 /* Hero Section Styles */
 #hero {
   position: relative;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   background-color: #fdf6f0;
@@ -63,9 +63,9 @@
 .hero-left-content {
   padding-left: 24px;
   padding-right: 60px;
-  padding-top: 210px;
+  padding-top: 140px;
   /* Space for fixed header */
-  padding-bottom: 80px;
+  padding-bottom: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -208,6 +208,8 @@
 .hero-inline-stat-item {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .inline-stat-num {
@@ -393,6 +395,11 @@
    Responsive Breakpoints for Hero Section
    ========================================================================== */
 @media (max-width: 992px) {
+  #hero {
+    height: auto;
+    min-height: 100vh;
+  }
+
   .hero-split-grid {
     grid-template-columns: 1fr;
   }
@@ -471,5 +478,161 @@
 
   .hero-right-photo-section {
     min-height: 380px;
+  }
+}
+
+/* Doctors Split Card Styles */
+.doctors-split-card {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 680px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  z-index: 2;
+  transition: transform 0.3s ease;
+}
+
+.doctors-split-card:hover {
+  transform: translateY(-4px);
+}
+
+.doctors-split-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 24px 32px 24px;
+  position: relative;
+}
+
+.doctors-split-col.pink-side {
+  background-color: #fbcada; /* Soft rose pink */
+}
+
+.doctors-split-col.teal-side {
+  background-color: #d1f0ed; /* Soft teal cyan */
+}
+
+.split-card-avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--white);
+  overflow: hidden;
+  border: 4px solid var(--white);
+}
+
+.pink-side .split-card-avatar {
+  background: #a83762;
+}
+
+.teal-side .split-card-avatar {
+  background: #19888d;
+}
+
+.split-card-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+.doctor-info-box {
+  width: 100%;
+  background-color: var(--white);
+  border-radius: 16px;
+  padding: 18px 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+}
+
+.doctor-info-name {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #5a1a35;
+  margin-bottom: 6px;
+  line-height: 1.25;
+}
+
+.doctor-info-degrees {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.pink-side .doctor-info-degrees {
+  color: #E8637A;
+}
+
+.teal-side .doctor-info-degrees {
+  color: #19888d;
+}
+
+.doctor-info-spec {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #7c606c;
+}
+
+/* Center heart badge */
+.split-card-heart-badge {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 48px;
+  height: 48px;
+  background-color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.split-card-heart-badge i {
+  color: #E8637A;
+  font-size: 1.3rem;
+  animation: heartbeat 1.5s infinite;
+}
+
+@keyframes heartbeat {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+@media (max-width: 576px) {
+  .doctors-split-card {
+    flex-direction: column;
+  }
+  .split-card-heart-badge {
+    display: none;
+  }
+  .doctors-split-col {
+    padding: 32px 20px;
+  }
+  .split-card-avatar {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 16px;
   }
 }
