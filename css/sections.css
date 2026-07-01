@@ -2245,7 +2245,8 @@
 .service-split-hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 100vh;
+  align-items: stretch;
+  height: 100vh !important;
   min-height: 560px;
   padding-top: 140px;
   /* Space for the fixed header */
@@ -2264,6 +2265,8 @@
   align-items: flex-start;
   gap: 16px;
   position: relative;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 .service-hero-left .service-back-link {
@@ -2390,6 +2393,8 @@
   text-align: center;
   padding: 40px;
   position: relative;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 .service-hero-right .service-photo-placeholder {
