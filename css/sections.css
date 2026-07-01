@@ -2245,12 +2245,14 @@
 .service-split-hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  height: 100vh;
   min-height: 560px;
   padding-top: 140px;
   /* Space for the fixed header */
   overflow: hidden;
   position: relative;
   background-color: var(--bg);
+  box-sizing: border-box;
 }
 
 .service-hero-left {
@@ -2430,6 +2432,7 @@
   width: 100%;
   max-width: 580px;
   height: 380px;
+  max-height: calc(100vh - 220px);
   object-fit: cover;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
@@ -2446,7 +2449,7 @@
 
 /* Breadcrumb Bar */
 .breadcrumb-bar {
-  background-color: var(--white);
+  background-color: var(--bg);
   border-bottom: 1px solid #f0e0e8;
   padding: 14px 0;
 }
@@ -2732,6 +2735,7 @@
   .service-split-hero {
     grid-template-columns: 1fr;
     padding-top: 115px;
+    height: auto;
   }
 
   .service-hero-left {
