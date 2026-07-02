@@ -137,7 +137,8 @@
             <div class="form-group">
               <label for="phone">Phone Number</label>
               <input type="tel" id="phone" name="phone" class="form-input" placeholder="Enter your phone number"
-                required>
+                required pattern="[0-9]{10}" title="Please enter a 10-digit phone number" maxlength="10"
+                oninput="this.value = this.value.replace(/[^0-9]/g, '');">
             </div>
 
             <div class="form-group">
@@ -311,7 +312,7 @@
 
       <!-- Copyright bar -->
       <div class="footer-bottom-bar">
-        <p class="footer-copyright">© 2025 Yashodhara designed by Insitearc. All rights reserved.</p>
+        <p class="footer-copyright">© 2025 Yashodhara | Designed by Insitearc |  All rights reserved.</p>
       </div>
     </div>
   </footer>
